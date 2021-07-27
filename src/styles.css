@@ -1,0 +1,151 @@
+* {
+    font-family: Poppins;
+}
+input::-webkit-input-placeholder{
+    font-size:14px;
+    font-weight: 700;
+}
+input::-moz-placeholder{
+    font-size:14px;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 31px;
+    font-weight: 700;
+}
+h2  {
+    font-size: 18px;
+    font-weight: 700;
+}
+p   {
+    font-size:16px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.cabezal, option, select {
+    font-size:12px;
+    font-weight: 700;
+    color:#727882;
+}
+.cabezal.verde{
+    color:#20B761;
+}
+.cabezal.negro{
+    color:black;
+}
+.detalles {
+    font-size: 14px;
+    font-weight: 400;
+}
+.nav-pers{
+    margin: auto;
+}
+.nav-pers .active{
+    border-bottom: 3px solid #0080FF;
+    color:#0080FF !important;
+}
+.txt-gris{
+    margin: auto 10px;
+    padding:13px 0px;
+    /* padding-bottom:; */
+}
+.container-pers{
+    background-color: white;
+    box-shadow: -1px 1px 20px 0px #00000021;
+}
+body{
+    background-color: #F5F7FA;
+}
+.logo{
+    margin-top: -3%;
+}
+
+/*Contenido*/
+
+/*Personajes*/
+select#filtros {
+    background: transparent;
+    border: none;
+    width: 60%;
+}
+#divfiltro{
+    width: 20%;
+    background-color: white;
+    box-shadow: 0px 2px 20px 1px #afbeea7a;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+}
+.buscar{
+    background: transparent;
+    border: none;
+}
+#icon-buscar{
+    padding: 10px;
+}
+#icon-filtro{
+    padding: 5px;
+    float:right;
+    margin: auto;
+}
+.inp-buscar{
+    background-color: white;
+    box-shadow: 0px 2px 20px 1px #afbeea7a;
+    border-radius: 5px;
+    margin: auto;
+    padding: 5px 10px;
+}
+*:focus {
+    outline: none;
+}
+.cont-card-pers {
+    margin: 15px 15px;
+}
+.card-pers{
+    background-color: white;
+    padding-left: 0px;
+    margin:2rem auto;
+    height: 70%;
+    box-shadow: 0px 2px 20px 1px #afbeea7a;
+    overflow: hidden;
+}
+
+.imagen-caracter{
+    width:50%;
+    height:100%;
+    transition: all 1.5s;
+}
+
+.card-pers:hover img{
+    transform: scale(1.1);
+}
+
+
+/*Modal*/
+.modal-texto{
+    padding: 20px;
+}
+#modal-dispair {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #0000006e;
+    position: fixed;
+    z-index: 2;
+}
+#modal-caracteres{
+    display: none;
+}
+.modal-contain{
+    background-color: white;
+    z-index: 3;
+    position: fixed;
+    width: 800px;
+    height: 400px;
+    margin: 5% auto; /* Will not center vertically and won't work in IE6/7. */
+    left: 0;
+    top:10%;
+    right: 0;
+}
